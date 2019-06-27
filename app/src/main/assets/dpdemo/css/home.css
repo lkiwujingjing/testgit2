@@ -1,0 +1,70 @@
+.date {
+    font-size: 3.0rem;
+}
+
+.number {
+    font-size: 3.0rem;
+}
+
+.attation {
+    display: inline;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem !important;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.table>tbody>tr>td {
+    vertical-align: middle !important;
+
+}
+
+.arrow {
+    font-size: 2rem;
+}
+
+.tab1 {
+    width: 50%;
+    text-align: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+
+#tab1>li.active>a,
+#tab1>li.active>a:focus,
+#tab1>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 0px;
+    border-bottom: 0.3125rem solid black;
+}
+
+.red {
+    color: #ce2d32;
+}
+
+.dark {
+    background: #ccc;
+}
+
+.srcoll-div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.srcoll-div-left {
+    margin-left: 0.9375rem;
+}
+
+.bbottom-black {
+    border-bottom: 0.3125rem solid black;
+}
+
+.bbottom-gary {
+    border-bottom: 0.3125rem solid #ddd;
+}
