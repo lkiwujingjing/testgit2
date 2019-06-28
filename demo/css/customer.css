@@ -1,0 +1,85 @@
+a:visited {
+    color: #2288aa;
+}
+a {
+    text-decoration: underline;
+    color: #2288aa;
+}
+a {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.no-require{
+    display: inline;
+    background-color:  #666666;
+    color:white;
+    font-size: 15px;
+    padding: 3px;
+}
+.red {
+    color: #ce2d32;
+}
+.sub-title{
+    background-image: url(../img/subtitle-middle-bg.png);
+    color:white;
+}
+
+.white-button {
+    background:rgba(255,255,255,1);
+    border-radius:15px;
+    border:1px solid rgba(207,34,9,1);
+    color:rgba(207,34,9,1);
+    font-size: 15px;
+}
+
+/** */
+.div-border-bottom{
+    border-bottom:1px solid #d6d6d6;
+}
+
+.customer-title{
+    height:35px;
+    font-size:20px;
+    font-weight:bold;
+    color:rgba(0,0,0,1);
+    line-height:35px;
+    background: rgba(226,232,246,1);
+    padding-left: 8px;
+    
+}
+.require{
+    display: inline;
+    background-color:  rgba(207,34,9,1);
+    color:white;
+    font-size: 15px;
+    padding: 3px;
+}
+
+#customerInfo>tbody>tr>td {
+    padding: 18px 18px 18px 8px;
+}
+ul.planList li {
+    margin: 3px 3px 0 0;
+    padding: 0 5px;
+    border: solid 1px #666666;
+    background: #ffffff;
+    display: inline-block;
+    color: #666666;
+    line-height: 17px;
+    min-height: 17px;
+    font-weight: normal;
+    white-space: nowrap;
+    word-break: break-all;
+}
+.focus{
+    color:rgba(207, 34, 9, 1)
+}
+label {
+    font-weight: normal !important;
+}
+.input-text{
+    background: rgba(254,251,240,1)
+}

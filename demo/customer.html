@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>お客さま(参加者)情報の入力</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入 Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="css/bootstrap.vertical-tabs.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/top.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/customer.css" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!--top Start-->
+    <div class="container container1">
+        <div class="row column">
+            <div class="col-md-6 column1">
+                <img alt="JAPAN AIRLINES" src="img/logo.png" height="38px" width="418px" />
+            </div>
+            <div class="col-md-5 column2">
+                <div class="search">
+                    <div class="l-language">
+                        <div class="search-input">
+                            <div class="form-inline right">
+                                <a href="javascript:void(0);" class="nav-link fc-black disabled">
+                                    <span class="i i-flag-jp mb3"></span>
+                                    <span lang="en">Japan</span>日本語
+                                </a>&nbsp;
+                                <div class="input-group">
+                                    <input type="text" class="form-control w67p h22" aria-describedby="basic-addon2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inline-link ">
+                    <ul class="list-inline">
+                        <li><span class="i i-guide-g"></span>&nbsp;&nbsp;お体の不自由なお客さまへ</li>
+                        <li><span class="i i-guide-g"></span>&nbsp;&nbsp;お問い合わせ</li>
+                        <li><span class="i i-guide-g"></span>&nbsp;&nbsp;よくあるご質問</li>
+                    </ul>
+                </div>
+                <a href="javascript:void(0);" class="l-oneworld mr30 mb3"><span class="i i-oneworld"></span></a>
+            </div>
+        </div>
+    </div>
+    <!--Top end-->
+
+    <!--Nav Start-->
+    <div class="navbar navbar-inverse ">
+        <!--Nav Start-->
+        <div class="container container2">
+            <ul class="nav navbar-nav global-nav ml135">
+                <li><a href="javascript:void(0);" onclick="">国内線</a></li>
+                <li><a href="javascript:void(0);" onclick="">国際線</a></li>
+                <li><a href="javascript:void(0);" onclick="">国内ツアー</a></li>
+                <li class="is-localNavBtn">
+                    <a href="javascript:void(0);" onclick="" class="img-click">
+                        <span class="iconMenuBtn"></span>
+                    </a>
+                </li>
+                <li><a href="javascript:void(0);" onclick="" class=" is-current">海外ツアー</a></li>
+                <li><a href="javascript:void(0);" onclick="">マイレージ</a></li>
+                <li><a href="javascript:void(0);" onclick="">JALカード</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Nav End-->
+
+    <!-- Main Start-->
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-3">
+                <div class="thumbnail left-logo">
+                    <img alt="300x200" src="img/yoroku.png" class="img-responsive" />
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="row mt20 stepline-font search-conditon-title">
+                    <div class="col-md-3">
+                        <img alt="300x200" src="img/darkplan.png" class="img-responsive" />
+                        <div aria-hidden="true" class="stepline">&nbsp;</div>
+                        <br />
+                        <div class="mt13">カート</div>
+                    </div>
+                    <div class="col-md-3">
+                        <img alt="300x200" src="img/redplan.png" class="img-responsive" />
+                        <div aria-hidden="true" class="stepline">&nbsp;</div>
+                        <br />
+                        <div class="mt13">お客様情報入力</div>
+                    </div>
+                    <div class="col-md-3">
+                        <img alt="300x200" src="img/darkplan.png" class="img-responsive" />
+                        <div aria-hidden="true" class="stepline">&nbsp;</div>
+                        <br />
+                        <div class="mt13">予約情報最終確認</div>
+                    </div>
+                    <div class="col-md-3">
+                        <img alt="300x200" src="img/darkplan.png" class="img-responsive" />
+                        <br />
+                        <div class="mt13">予約完了</div>
+                    </div>
+                </div>
+
+                <div class="div-border-bottom mt20">
+                    <div class="row plan-title">
+                        <div class="inline" style="background:rgba(207,34,9,1);">&nbsp;</div>
+                        <div class="inline">お客さま(参加者)情報の入力</div>
+                    </div>
+                    <div class="row">
+                        <p class="fs15" style="padding-top: 15px;padding-left: 10px;color:rgba(55,79,92,1);">
+                            ご入力いただく个人情报は，旅行の手配に必要な范囲内で，运送·宿泊机关，保険会社などへ提出することに同意いただいたものとさせていただきます。个人情报については
+                            <a href="#">こちら</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="div-border-bottom mt30">
+                    <div class="row">
+                        <div class="col-md-12 fs15">
+                            <table class="table fw600">
+                                <tr>
+                                    <td colspan="3" style="background: rgba(226,232,246,1);height:35px;"
+                                        class="bbottom"></td>
+                                </tr>
+                                <tr>
+                                    <td class="bbottom">出発日 06月18日（火)</td>
+                                    <td class="bbottom">人数 おとな：1名</td>
+                                    <td>
+                                        お支払代合計：170200円
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="3" class="btop">
+                                        <a href="#"><img alt="300x200" src="img/add.png" />旅程情報をすべて表示する</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row fs15">
+                    <div class="col-md-12">
+                        <table class="table" id="customerInfo">
+                            <thead>
+                                <tr class="div-border-bottom">
+                                    <td colspan="3" class="customer-title">お客さま（参加者）情报</td>
+                                </tr>
+                            </thead>
+                            <tr>
+                                <td>姓名（カタカナ）
+                                    <div class="require">必須</div><br />
+                                    ※外国姓のお客さまは半角英字（大文字）で入力してください。
+                                </td>
+                                <td colspan="2" class="form-inline">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            例）ヤマダ
+                                        </div>
+                                        <div class="col-md-6">
+                                            例）タロウ
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">姓</label>
+                                                <input type="text" class="form-control input-text" id="name" >
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="name">名</label>
+                                                <input type="text" class="form-control input-text" id="name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>性別
+                                    <div class="require">必須</div>
+                                </td>
+                                <td colspan="2" class="form-inline">
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optionsRadiosinline" id="optionsRadios3"
+                                            value="option1" checked>男性
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="optionsRadiosinline" id="optionsRadios4"
+                                            value="option2">女性
+                                    </label>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>年齢
+                                    <div class="require">必須</div>
+                                </td>
+                                <td colspan="2" class="form-inline">
+
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            ※出発日現在の年齢を入力してください。<BR />
+                                            例）30
+                                        </div>
+                                    </div>
+                                    <div class="row mt9">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input-text" id="name">
+                                                <label for="name">歳</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>電話番号<BR />
+                                    （参加代表者ご本人）
+                                    <div class="require">必須</div><br />
+                                </td>
+                                <td colspan="2" class="form-inline">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            ※弊社よりご連絡をさせていただく場合がありますので、携帯電話など日中の連絡の取りやすい番号を入力してください。
+                                            <BR />
+                                            例）090-1234-5678
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+
+                                                <input type="text" class="form-control input-text" id="name" size="3">
+                                            </div>
+                                            -
+                                            <div class="form-group">
+
+                                                <input type="text" class="form-control input-text" id="name" size="4">
+                                            </div>
+                                            -
+                                            <div class="form-group">
+
+                                                <input type="text" class="form-control input-text" id="name" size="4">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>緊急連絡先<BR />
+                                    （参加代表者ご本人以外）
+                                    <div class="no-require">任意</div><br />
+                                </td>
+                                <td colspan="2" class="form-inline">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            例）090-1234-5678
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+
+                                                <input type="text" class="form-control" id="name" size="3">
+                                            </div>
+                                            -
+                                            <div class="form-group">
+
+                                                <input type="text" class="form-control" id="name" size="4">
+                                            </div>
+                                            -
+                                            <div class="form-group">
+
+                                                <input type="text" class="form-control" id="name" size="4">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt20">
+                                        <div class="col-md-12">
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optionsRadiosinline" id="optionsRadios3"
+                                                    value="option1" checked>家族・親族
+                                            </label>
+                                            <label class="radio-inline">
+                                                <input type="radio" name="optionsRadiosinline" id="optionsRadios4"
+                                                    value="option2">友人・知人
+                                            </label>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>発送物送付先住所
+                                    <div class="require">必須</div><br />
+                                </td>
+                                <td colspan="2" class="form-inline">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            例）〒140-8637
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <label for="name">〒</label>
+                                                <input type="text" class="form-control input-text" id="name" size="3">
+                                            </div>
+                                            -
+                                            <div class="form-group">
+
+                                                <input type="text" class="form-control input-text" id="name" size="4">
+                                            </div>
+                                            <button class="btn white-button" type="button">住所自動入力</button>
+                                        </div>
+                                    </div>
+                                    <div class="row mt27">
+                                        <div class="col-md-12">
+                                            例）東京都品川区東品川2-4-11　野村不動産天王洲ビル<br />
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input-text" id="name"  size="40">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt15">
+                                        <div class="col-md-12">
+                                            ※姓名を入力してください。(15文字以内)<br />
+                                            例）山田 太郎<br />
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input-text" id="name" size="40">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>メールアドレス
+                                    <div class="require">必須</div><br />
+                                </td>
+                                <td colspan="2" class="form-inline">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            例）taro.yamada@jal.com<br />
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input-text" id="name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt19">
+                                        <div class="col-md-12">
+                                            確認のため、もう一度ご入力をお願いします。<br />
+                                            <div class="form-group">
+                                                <input type="text" class="form-control input-text" id="name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="div-border-bottom">JMBお得意様番号
+                                    <div class="no-require">任意</div><br />
+                                </td>
+                                <td colspan="2" class="form-inline div-border-bottom">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control input-text" id="name">
+                                        <label for="name">※9桁または7桁</label>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row fs15 fw">
+                    <div class="col-md-12 content">
+                        <table class="table table-bordered">
+                            <tr>
+                                <td colspan="3" class="focus content">ご注意</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="content">
+                                    <div>
+                                        ※ご予約後、ご搭乗者名を変更することはできません。<br />
+                                        ※送付物がある場合のみこ入力いただいた住所まで送付します。<br />
+                                        ※JMBお得意様番号は個人情報のため、こ家族やこ友人の番号に積算することはできません。<br />
+                                        ※「追加マイル」は、ご予約時にIMBお得意様番号をこ登録された参加代表者さまのみ積算されます。同行者の方は積算対象外となり<br />
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row fs15 fw">
+                    <div class="col-md-12 ">
+                        <table class="table table-bordered">
+                            <tr>
+                                <td colspan="3" class="focus bbottom content">ご注意</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3" class="btop content">
+                                    <div>
+                                        ※ご予約の有泊ブランに「追加マイル」の設定がある場合は、MB会員の参加代表者さまのみ積算されます。<br />
+                                        ※同行者さまは積算対象外となります。<br />
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div class="row fs15 mt20">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="focus">チエックイン時間必須</div>
+                                <div class="customer-title mt20">チエックイン時間<div class="require">必須</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="table pt23 ">
+                                    <tr>
+                                        <td class="bbottom">チェックイン日： 06月18日 （火）</td>
+                                        <td class="bbottom">宿泊施設：京王ブラザホテル札幌
+                                            <br />【期間限定タイムセール!】<br />素泊り札幌駅西口から<br />徒歩5分の高層シティホテル</td>
+                                        <td class="bbottom">食事内容：昼食 <ul class="planList" style="display: inline">
+                                                <li class="meal">
+                                                    <span>夕食×</span><span>翌朝食×</span></li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr class="div-border-bottom">
+                                        <td colspan="3" class="form-inline btop">チェックイン時間：<select class="form-control">
+                                                <option selected="selected">選択してください</option>
+                                                <option>12:00</option>
+                                                <option>13:00</option>
+                                                <option>14:00</option>
+                                                <option>15:00</option>
+                                                <option>15:00</option>
+                                                <option>17:00</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row fs15 mt20">
+                    <div class="col-md-12">
+                        <div class="customer-title">お体の不自由なお客さまへ(サポート情報入カ)</div>
+                        <div class="fw pt23">
+                            <p>車椅子の手配や空港でのお手伝いが必要な方は該当項目をご選択ください。</p>
+                            <p><a href="#">旅行条件書第4項(4)</a>に準じ、後日弊社よりご予約者さまへご連絡させていただきます</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="row fs15 mt36">
+                    <div class="col-md-12">
+                        <img alt="300x200" src="img/add.png" />サボ一ト情報を入力する<div class="no-require">任意</div>
+                    </div>
+                </div>
+
+                <div class="row mt20">
+                    <div class="col-md-12 tr">
+                        <button class="btn btn-lg dark-button" type="button" id="cart-button">選択内容の確認力ートへ戻る</button>&nbsp;&nbsp;
+                        <button class="btn btn-lg red-button" type="button" id="pay-button">お支払い情報の入力へ進む</button>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/customer.js"></script>
+</body>
+
+</html>

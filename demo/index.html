@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JAPAN AIRLINES</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="css/bootstrap.vertical-tabs.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/top.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/search.css" rel="stylesheet">
+</head>
+<body>
+    <!--Top Start-->
+    <div class="container container1">
+        <div class="row column">
+            <div class="col-md-6 column1">
+                <img alt="JAPAN AIRLINES" src="img/logo.png" height="38px" width="418px" />
+            </div>
+            <div class="col-md-5 column2">
+                <div class="search">
+                    <div class="l-language">
+                        <div class="search-input">
+                            <div class="form-inline right">
+                                <a href="javascript:void(0);" class="nav-link fc-black disabled">
+                                    <span class="i i-flag-jp mb3"></span>
+                                    <span lang="en">Japan</span>日本語
+                                </a>&nbsp;
+                                <div class="input-group">
+                                    <input type="text" class="form-control w67p h22" aria-describedby="basic-addon2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inline-link ">
+                    <ul class="list-inline">
+                        <li><span class="i i-guide-g"></span>&nbsp;&nbsp;お体の不自由なお客さまへ</li>
+                        <li><span class="i i-guide-g"></span>&nbsp;&nbsp;お問い合わせ</li>
+                        <li><span class="i i-guide-g"></span>&nbsp;&nbsp;よくあるご質問</li>
+                    </ul>
+                </div>
+                <a href="javascript:void(0);" class="l-oneworld mr30 mb3"><span class="i i-oneworld"></span></a>
+            </div>
+        </div>
+    </div>
+    <!--Top End-->
+    <!--Main Start-->
+    <div class="navbar navbar-inverse">
+        <!--Nav Start-->
+        <div class="container container2">
+            <ul class="nav navbar-nav global-nav ml135">
+                <li><a href="javascript:void(0);" onclick="">国内線</a></li>
+                <li><a href="javascript:void(0);" onclick="">国際線</a></li>
+                <li><a href="javascript:void(0);" onclick="">国内ツアー</a></li>
+                <li class="is-localNavBtn">
+                    <a href="javascript:void(0);" onclick="" class="img-click">
+                        <span class="iconMenuBtn"></span>
+                    </a>
+                </li>
+                <li><a href="javascript:void(0);"" onclick="" class="is-current">海外ツアー</a></li>
+                <li><a href="javascript:void(0);" onclick="">マイレージ</a></li>
+                <li><a href="javascript:void(0);" onclick="">JALカード</a></li>
+            </ul>
+        </div>
+        <!--Nav End-->
+        <!--Search Start-->
+        <div class="container-fluid">
+            <div class="row container3">
+                <div class="col-md-5 col-md-offset-4 mt18">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <ul class="nav nav-tabs reservation-tab">
+                                <li class="reservation-tab-bg active">
+                                    <a href="#home" data-toggle="tab">
+                                        <span class="i reservation-tab-ticket"></span>
+                                    </a>
+                                </li>
+                                <li class="reservation-tab-bg">
+                                    <a href="#profile" data-toggle="tab">
+                                        <span class="i reservation-tab-ticket-hotel"></span>
+                                    </a>
+                                </li>
+                                <li class="reservation-tab-bg">
+                                    <a href="#messages" data-toggle="tab">
+                                        <span class="i reservation-tab-hotel-car"></span>
+                                    </a>
+                                </li>
+                                <li class="reservation-tab-bg">
+                                    <a href="#settings" data-toggle="tab">
+                                        <span class="i reservation-tab-status"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-md-9 " style="background: white">
+                            <div class="tab-content">
+                                <div class="tab-pane active search-conditon-win" id="home">
+                                    <form class="form-horizontal" style="margin-left:20px;">
+                                        <div class="form-group col-md-12" style="margin-bottom: 0px">
+                                            <h4>航空券+宿泊+送迎オフション<small>(タイナミックパッケージ)</small>を予約する</h4>
+                                        </div>
+
+                                        <div class="form-group col-md-12">
+                                            <div class="radio-inline fs15">
+                                                <input type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                                    value="option1" checked> 1.都市滞在
+                                            </div>
+                                            <div class="radio-inline fs15">
+                                                <input type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                                    value="option2"> 2.都市滞在
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="col-md-4 ">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">出発地</span>
+                                                    <select class="form-control border-none">
+                                                        <option selected="selected">東京(羽田)</option>
+                                                        <option>東京</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2" style="padding-left: 0;">
+                                                <button class="btn btn-sm" type="submit"
+                                                    style="background-color: red;font-size: 8px;">地図で選ぶ</button>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">ホテルクレート</span>
+                                                    <select class="form-control border-none">
+                                                        <option selected="selected">指定なし</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="col-md-4">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">目的地</span>
+                                                    <select class="form-control border-none">
+                                                        <option selected="selected">東京(羽田)</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2" style="padding-left: 0;">
+                                                <button class="btn btn-sm" type="submit"
+                                                    style="background-color: red;font-size: 8px;">地図で選ぶ</button>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="input-group">
+                                                    <span class="input-group-addon">部物数</span>
+                                                    <select class="form-control border-none">
+                                                        <option selected="selected">指定なし１部屋</option>
+                                                        <option>2</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="col-md-6">
+                                                <div class="input-group date form_date" style="float: left" data-date=""
+                                                    data-date-format="dd MM yyyy" data-link-field="dtp_input2"
+                                                    data-link-format="yyyy-mm-dd">
+                                                    <span class="input-group-addon"
+                                                        style="width:135px;text-align:left;">出発日</span>
+                                                    <input class="form-control border-none" size="16" type="text"
+                                                        value="6月4日(火)">
+                                                    <span class="input-group-addon"><span
+                                                            class="glyphicon glyphicon-calendar"></span></span>
+                                                </div>
+                                                <input type="hidden" id="dtp_input2" value="">
+                                            </div>
+                                            <label class="control-label col-md-2">1部屋数</label>
+                                            <div class="col-md-4">
+                                                <select class="form-control">
+                                                    <option selected="selected">大人　2名</option>
+                                                    <option>2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="col-md-6">
+                                                <div class="input-group date form_date" style="float: left" data-date=""
+                                                    data-date-format="dd MM yyyy" data-link-field="dtp_input2"
+                                                    data-link-format="yyyy-mm-dd">
+                                                    <span class="input-group-addon">帰国日<small>(現地出発日)</small></span>
+                                                    <input class="form-control border-none" size="16" type="text"
+                                                        value="6月9日(火)">
+                                                    <span class="input-group-addon"><span
+                                                            class="glyphicon glyphicon-calendar"></span></span>
+                                                </div>
+                                                <input type="hidden" id="dtp_input2" value="">
+                                            </div>
+
+                                            <div class="col-md-4 col-md-offset-2">
+                                                <select class="form-control">
+                                                    <option selected="selected">子供　1名</option>
+                                                    <option>2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="col-md-6">
+                                                <select class="form-control">
+                                                    <option selected="selected">クラス　エコノミークラス</option>
+                                                    <option>2</option>
+                                                </select>
+                                            </div>
+
+                                            <div class="col-md-4 col-md-offset-2">
+                                                <select class="form-control">
+                                                    <option selected="selected">幼児　1名</option>
+                                                    <option>2</option>
+                                                </select>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="form-group">
+                                            <button class="btn btn-sm"
+                                                style="float: right;background-color: red;color: azure;margin-right: 30px;"
+                                                type="button" id="search">検索する</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="tab-pane" id="profile">バッケージツアー</div>
+                                <div class="tab-pane" id="messages">ホテル</div>
+                                <div class="tab-pane" id="settings">Settings Tab.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row backdrop1 mt10 w90p">
+                        <div class="col-md-9">
+                            <div class="mt8">&nbsp;&nbsp;
+                                <span class="i i-human"></span>
+                                <span class="human-font">JALマイレーバンク</span>
+                            </div>
+                            <div class="form-inline left mt8">&nbsp;&nbsp;
+                                <input type="text" class="form-control w40p h22 tc" aria-describedby="basic-addon2" value="年会費無料！今すぐ入会" />&nbsp;&nbsp;
+                                <button class="btn btn-default" type="submit">会員ログイン</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row backdrop2 mt10 w90p">
+                        <div class="col-md-9 mt12">&nbsp;&nbsp;
+                            <a class="a11y-customerHeader" href="javascript:void(0);">
+                                <span class="i i-check"></span>
+                                <span class="human-font">海外ツアーご予約済のお客さま</span>&nbsp;
+                                <span class="i i-arw-m-white-btm"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap-datetimepicker.js"></script>
+    <script src="js/bootstrap-datetimepicker.ja.js"></script>
+    <script type="text/javascript">
+        $('.form_date').datetimepicker({
+            language: 'ja',
+            weekStart: 1,
+            todayBtn: 1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 2,
+            minView: 2,
+            forceParse: 0,
+            format: 'mm月dd日',
+            pickerPosition: 'bottom-left'
+        });
+
+    $('#search').click(function(){
+        self.location="search-result.html";
+    });
+    </script>
+</body>
+</html>

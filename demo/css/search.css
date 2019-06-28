@@ -1,0 +1,98 @@
+.reservation-tab-ticket {
+    background-image: url("../img/tab-ticket.png");
+    background-repeat: no-repeat;
+    width: 79px;
+    height: 64px; 
+}
+.reservation-tab-ticket-hotel {
+    background-image: url("../img/ticket-hotel.png");
+    background-repeat: no-repeat;
+    width: 79px;
+    height: 64px; 
+}
+.reservation-tab-hotel-car {
+    background-image: url("../img/tab-hotel-car.png");
+    background-repeat: no-repeat;
+    width: 79px;
+    height: 64px; 
+}
+.reservation-tab-status {
+    background-image: url("../img/tab-status.png");
+    background-repeat: no-repeat;
+    width: 79px;
+    height: 64px; 
+}
+.reservation-tab {
+    background:linear-gradient(180deg,rgba(62,70,81,1) 0%,rgba(48,55,66,1) 100%);
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 79px;
+}
+.col-md-2 {
+    width: 14%;
+}
+
+.reservation-tab>li>a {
+    position: relative;
+    display: block;
+    padding: 0;
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    background-color: transparent !important;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.backdrop1 {
+    height: 75px;
+    margin-left: 4px;
+    background: linear-gradient(180deg, rgba(62, 70, 81, 1) 0%, rgba(48, 55, 66, 1) 100%);
+    box-shadow: -1px 1px 0px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0.5002;
+}
+.btn-default {
+    background-color: red;
+    color: azure;
+    font-size: 10px;
+    height: 22px;
+    line-height: 10px;
+}
+.backdrop2 {
+    height: 40px;
+    margin-left: 4px;
+    background: linear-gradient(180deg, rgba(62, 70, 81, 1) 0%, rgba(48, 55, 66, 1) 100%);
+    box-shadow: -1px 1px 0px 0px rgba(0, 0, 0, 0.5);
+    opacity: 0.5002;
+}
+.human-font {
+    font-size:12px;
+    color:rgba(255,255,255,1);
+    text-shadow:0px 2px 4px rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+.i-human,.i-check,.i-arw-m-white-btm{
+    background-image: url("../img/icon_util-s1be6131419.png");
+    background-repeat: no-repeat;
+}
+.i-human {
+    background-position: 0 -357px;
+    width: 15px;
+    height: 17px;
+}
+.i-check {
+    background-position: 0 -208px;
+    width: 20px;
+    height: 20px;
+}
+.i-arw-m-white-btm {
+    background-position: 0 -116px;
+    width: 10px;
+    height: 10px;
+}
+

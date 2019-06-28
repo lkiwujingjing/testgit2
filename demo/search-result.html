@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JAPAN AIRLINES</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="css/bootstrap.vertical-tabs.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/top.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/search-result.css" rel="stylesheet">
+</head>
+<body>
+    <!--Top Start-->
+    <div class="container container1">
+        <div class="row column">
+            <div class="col-md-6 column1">
+                <img alt="JAPAN AIRLINES" src="img/logo.png" height="38px" width="418px" />
+            </div>
+            <div class="col-md-5 column2">
+                <div class="search">
+                    <div class="l-language">
+                        <div class="search-input">
+                            <div class="form-inline right">
+                                <a href="javascript:void(0);" class="nav-link fc-black disabled">
+                                    <span class="i i-flag-jp mb3"></span>
+                                    <span lang="en">Japan</span>日本語
+                                </a>&nbsp;
+                                <div class="input-group">
+                                    <input type="text" class="form-control w67p h22" aria-describedby="basic-addon2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inline-link ">
+                    <ul class="list-inline">
+                        <li><span class="i i-guide-g"></span>&nbsp;&nbsp;お体の不自由なお客さまへ</li>
+                        <li><span class="i i-guide-g"></span>&nbsp;&nbsp;お問い合わせ</li>
+                        <li><span class="i i-guide-g"></span>&nbsp;&nbsp;よくあるご質問</li>
+                    </ul>
+                </div>
+                <a href="javascript:void(0);" class="l-oneworld mr30 mb3"><span class="i i-oneworld"></span></a>
+            </div>
+        </div>
+    </div>
+    <!--Top End-->
+    <!--Main Start-->
+    <div class="navbar navbar-inverse">
+        <!--Nav Start-->
+        <div class="container container2">
+            <ul class="nav navbar-nav global-nav ml135">
+                <li><a href="javascript:void(0);" onclick="">国内線</a></li>
+                <li><a href="javascript:void(0);" onclick="">国際線</a></li>
+                <li><a href="javascript:void(0);" onclick="">国内ツアー</a></li>
+                <li class="is-localNavBtn">
+                    <a href="javascript:void(0);" onclick="" class="img-click">
+                        <span class="iconMenuBtn"></span>
+                    </a>
+                </li>
+                <li><a href="javascript:void(0);" onclick="" class="is-current">海外ツアー</a></li>
+                <li><a href="javascript:void(0);" onclick="">マイレージ</a></li>
+                <li><a href="javascript:void(0);" onclick="">JALカード</a></li>
+            </ul>
+        </div>
+        <!--Nav End-->
+        <!--Result Start-->
+        <div class="container-fluid">
+            <div class="row container3">
+                <div class="col-md-5 col-md-offset-4 mt18">
+                    <div class="row panel panel-default">
+                        <div class="search-conditon-title">
+                            <div class="panel-heading fs18 fc-white">検索結果
+                                <button class="btn btn-sm search-henkou-button" type="button" id="conditon-change-btn">既存の条件変更する</button>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div style="border: 1px solid #ddd;">
+                                <div class="row mt18">
+                                    <div class="col-md-2">
+                                        <h3 class="air-line"> 検索条件</h3>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <table class="table table-border-none">
+                                            <tbody>
+                                                <tr>
+                                                    <td><span class="td-title">出発地：</span><span class="search-td-conditon-value">东京（成田 - 羽田）</span></td>
+                                                    <td><span class="td-title">出発日：</span><span class="search-td-conditon-value">2019/03/20</span></td>
+                                                    <td><span class="td-title">ホテルクレート：</span><span class="search-td-conditon-value">指定なし</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="td-title">目的地：</span><span class="search-td-conditon-value">东京（羽田）</span></td>
+                                                    <td><span class="td-title">帰国日：</span><span class="search-td-conditon-value">2019/03/26</span></td>
+                                                    <td><span class="td-title">部物数：</span><span class="search-td-conditon-value">１部物数</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="search-td-conditon-value">都市滞在</span></td>
+                                                    <td><span class="td-title">クラス：</span>
+                                                        <span class="search-td-conditon-value">エコノミークラス</span>
+                                                    </td>
+                                                    <td><span class="td-title">大人：</span>
+                                                        <span class="search-td-conditon-value">2名</span>
+                                                        <span class="td-title">子供：</span>
+                                                        <span class="search-td-conditon-value">1名</span>
+                                                        <span class="td-title">幼児：</span>
+                                                        <span class="search-td-conditon-value">1名</span>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="span12 mt10">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <h3 class="air-line vt">往路</h3>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <ul>
+                                                        <li>2019/03/20（水）</li>
+                                                        <li>东京(成田)カイルア·コナ</li>
+                                                        <li>21：25発 09:55着</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12 ">
+                                                    <div class="form-group">
+                                                        <button class="btn btn-sm search-result-btn" type="button">フライト详细</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="span12 mt10">
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <h3 class="air-line">復路</h3>
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <ul>
+                                                        <li>2019/03/20（水）</li>
+                                                        <li>东京(成田)カイルア·コナ</li>
+                                                        <li>21：25発 09:55着</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12 ">
+                                                    <div class="form-group">
+                                                        <button class="btn btn-sm search-result-btn" type="button">フライト详细</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt10">
+                                        <h3 class="air-line">ホテル</h3>
+                                        <div class="caption pl14">
+                                            <a href="#">コートャード·ハイ·マリオット·キンク·カメハメス·コナ·ビーチ·ホテ</a>
+                                        </div>
+                                        <div class="thumbnail ml14">
+                                            <img alt="300x200" src="img/people.jpg" />
+                                        </div>
+                                        <div class="caption pl14">
+                                            <p>【朝食なし】バーシャル·オーシャンビュー【お子様添い寝プラン* 2歳以上12歳未】</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 mt10">
+                                        <h3 class="air-line">送迎·オプション</h3>
+                                        <p class="pl14">（往復）专用车送迎</p>
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row mt18">
+                                    <div class="col-md-3 sub-title ml14">
+                                        旅行代金合计
+                                    </div>
+                                    <div class="col-md-4">
+                                        <table class="table table-border-none">
+                                            <tbody>
+                                                <tr>
+                                                    <td><span class="td-title">旅行金合计：</span></td>
+                                                    <td><span class="search-td-conditon-value">621,970円</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span class="td-title">お一人様あたり：</span></td>
+                                                    <td><span class="search-td-conditon-value">207,323円</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2"><span class="td-title">（燃油サーチャージ込みノ空港诸税别）</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <button class="btn btn-sm search-result-btn" type="button">代金加カレンー</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row panel panel-default">
+                        <div class="col-md-12">
+                            <div>
+                                <ul class="nav nav-tabs nav-justified day-tabs">
+                                    <li>
+                                        <a href="#panel-1" data-toggle="tab">2019/03/17<br />
+                                            <span class="red">532,800円〜</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#panel-2" data-toggle="tab">2019/03/18<br /><span
+                                                class="red">412,800円〜</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#panel-3" data-toggle="tab">2019/03/19<br /><span
+                                                class="red">432,800円〜</span></a>
+                                    </li>
+                                    <li class="active">
+                                        <a href="#panel-4" data-toggle="tab" class="isactive">2019/03/20<br /><span
+                                                class="red">621,970円〜</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#panel-5" data-toggle="tab">2019/03/21<br /><span
+                                                class="red">-</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#panel-6" data-toggle="tab">2019/03/22<br /><span
+                                                class="red">451,500円〜</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#panel-7" data-toggle="tab">2019/03/23<br /><span
+                                                class="red">471,200円〜</span></a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content ">
+                                    <div class="tab-pane active mt10" id="panel-4">
+                                        <div class="span12">
+                                            <div>
+                                                <ul class="nav  nav-tabs result-tabs">
+                                                    <li class="active">
+                                                        <a href="#panel-871503" data-toggle="tab" class="isactive">フライト选択</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#panel-570704" data-toggle="tab">ホテル选択</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#panel-570704" data-toggle="tab">送迎·オプション选択</a>
+                                                    </li>
+                                                </ul>
+                                                <div class="tab-content ">
+                                                    <div class="tab-pane active mt10" id="panel-871503">
+                                                        <div class="row-fluid">
+                                                            <div class="col-md-5">
+                                                                <div>
+                                                                    <span class="sub-title">往路</span>
+                                                                    <span class="sub-sub-title">东京（羽田）--->カイルア·コナ</span>
+                                                                </div>
+                                                                <div class="furato-result">
+                                                                    <div class="row pl14">
+                                                                        <div class="col-md-1">
+                                                                            <input type="radio" value="Option from" name="group from" checked="checked">
+                                                                        </div>
+                                                                        <div class="col-md-10">
+                                                                            <table class="table">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>东京（羽田）</td>
+                                                                                        <td>---></td>
+                                                                                        <td>カイルア·コナ</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="line-time">21:25</td>
+                                                                                        <td class="line-time-td">道行使</td>
+                                                                                        <td class="line-time">09:55</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>LJ770便</td>
+                                                                                        <td></td>
+                                                                                        <td><a href="#" class="line-href">坐席指定</a></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="furato-result mt10 mb10">
+                                                                    <div class="row pl14">
+                                                                        <div class="col-md-1">
+                                                                            <input type="radio" value="Option from" name="group from">
+                                                                        </div>
+                                                                        <div class="col-md-10">
+                                                                            <table class="table">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>东京（羽田）</td>
+                                                                                        <td>---></td>
+                                                                                        <td>カイルア·コナ</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="line-time">16:30</td>
+                                                                                        <td class="line-time-td"><a href="#" class="line-href">乘継便</a></td>
+                                                                                        <td class="line-time">16:30</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>LJ523便など</td>
+                                                                                        <td></td>
+                                                                                        <td><a href="#" class="line-href">坐席指定</a></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-1"></div>
+                                                            <div class="col-md-5">
+                                                                <div>
+                                                                    <span class="sub-title">復路</span>
+                                                                    <span class="sub-sub-title">カイルア·コナ--->东京（羽田）</span>
+                                                                </div>
+                                                                <div class="furato-result">
+                                                                    <div class="row pl14">
+                                                                        <div class="col-md-1">
+                                                                            <input type="radio" value="Option to" name="group to" checked="checked">
+                                                                        </div>
+                                                                        <div class="col-md-10">
+                                                                            <table class="table">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>カイルア·コナ</td>
+                                                                                        <td>---></td>
+                                                                                        <td>东京（羽田）</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="line-time">12:05</td>
+                                                                                        <td class="line-time-td">道行使</td>
+                                                                                        <td class="line-time">16:35</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>LJ770便</td>
+                                                                                        <td></td>
+                                                                                        <td><a href="#" class="line-href">坐席指定</a></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="furato-result mt10 mb10">
+
+                                                                    <div class="row pl14">
+                                                                        <div class="col-md-1">
+                                                                            <input type="radio" value="Option to" name="group to">
+                                                                        </div>
+                                                                        <div class="col-md-10">
+                                                                            <table class="table">
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>カイルア·コナ</td>
+                                                                                        <td>---></td>
+                                                                                        <td>东京（羽田）</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td class="line-time">12:21</td>
+                                                                                        <td class="line-time-td"><a href="#" class="line-href">乘継便</a></td>
+                                                                                        <td class="line-time">18:30</td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>LJ523便など</td>
+                                                                                        <td></td>
+                                                                                        <td><a href="#" class="line-href">坐席指定</a></td>
+                                                                                    </tr>
+                                                                                </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-pane mt10" id="panel-570704">
+                                                        <div class="row-fluid">
+                                                            <div class="panel-body furato-result">
+                                                                <div class="">
+                                                                    <div class="col-md-3 span12">
+                                                                        <input type="radio" value="Option one" name="group" checked="checked">
+                                                                        <img src="img/pic2.png" class="hotel-img">
+                                                                    </div>
+                                                                    <div class="col-md-4 span12">
+                                                                        <div class="air-line">ホテル</div>
+                                                                        <div class="pl14">
+                                                                            <a href="#">コートャード·ハイ·マリオット·キンク·カメハメス·コナ·ビーチ·ホテ</a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-md-5 span12">
+                                                                        <p>【朝食なし】バーシャル·オーシャンビュー【お子様添い寝プラン* 2歳以上12歳未】</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row-fluid">
+                                                            <div class="panel-body furato-result mt10 mb10">
+                                                                <div class="col-md-3 span12">
+                                                                    <input type="radio" value="Option one" name="group" />
+                                                                    <img src="img/pic1.png" class="hotel-img">
+                                                                </div>
+                                                                <div class="col-md-4 span12">
+                                                                    <div class="air-line">ホテル2店</div>
+                                                                    <div class="pl14">
+                                                                        <a href="#">コートャード·ハイ·マリオット·キンク·カメハメス·コナ·ビーチ·ホテ</a>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-5 span12">
+                                                                    <p>【朝食なし】バーシャル·オーシャンビュー【お子様添い寝プラン* 2歳以上12歳未】</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        $('#conditon-change-btn').bind('click', function () {
+            window.location.href = "index.html";
+        });
+    </script>
+</body>
+</html>

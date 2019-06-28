@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>配達</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mbcommon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-3.3.1.min.css" />
+</head>
+<style>
+    .date {
+        font-size: 3.0rem;
+    }
+
+    .number {
+        font-size: 3.0rem;
+    }
+
+    .attation {
+        display: inline;
+        background-color: black;
+        color: white;
+        font-size: 1.2rem !important;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .table>tbody>tr>td {
+        vertical-align: middle !important;
+
+    }
+
+    .arrow {
+        font-size: 2rem;
+    }
+
+
+
+    .tab1 {
+        width: 50%;
+        text-align: center;
+        color: white;
+        font-size: 1.8rem;
+    }
+
+
+    #tab1>li.active>a,
+    #tab1>li.active>a:focus,
+    #tab1>li.active>a:hover {
+        color: #555;
+        cursor: default;
+        background-color: #fff;
+        border: 0px;
+        border-bottom: 0.3125rem solid black;
+    }
+
+    .red {
+        color: #ce2d32;
+    }
+
+    .dark {
+        background: #ccc;
+    }
+
+    .srcoll-div {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .srcoll-div-left {
+        margin-left: 0.9375rem;
+    }
+
+    .bbottom-black {
+        border-bottom: 0.3125rem solid black;
+    }
+
+    .bbottom-gary {
+        border-bottom: 0.3125rem solid #ddd;
+    }
+
+
+
+    /*底部导航栏*/
+    .subMenu {
+        width: 20%;
+        float: left;
+        cursor: pointer;
+    }
+
+    .menu_name {
+        height: 30px;
+        width: 100%;
+        line-height: 30px;
+    }
+
+    img.menu_img {
+        height: 24px;
+        width: 24px;
+    }
+
+    img {
+        vertical-align: middle;
+        border: 0;
+    }
+
+    footer .active {
+        color: #CC1213;
+    }
+
+    .text-center {
+        text-align: center
+    }
+</style>
+
+<body>
+    <header>
+        <div class="container-fluid dark">
+            <div class="row">
+                <div class="col-xs-12 info red mt1">
+                    <div class="mb1">
+                        2019年4月8日<br />
+                        ◆「重要」テストテストテストテストテストテストテストテスト
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt05">
+            <div class="row">
+                <div class="col-xs-12" style="text-align:right">
+                    <span class="glyphicon glyphicon-search"></span>
+                    <span class="glyphicon glyphicon-list"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="title">山本たくやさんの確認リスト</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt1">
+            <div class="row">
+                <div class="col-xs-12">
+                    <section class="main">
+                        <div class="swiper-container" id="registerCont">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="baodanall">
+                                        <div class="srcoll-div main-border">
+                                            <div class="row">
+                                                <div class="col-xs-12 mt02">
+                                                    <div class="info attation ">重要</div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb1">
+                                                <div class="col-xs-4">
+                                                    <span class="date">7/20</span><span class="info">木<br />
+                                                        19:00~21:00にお届け</span>
+                                                </div>
+                                                <div class="col-xs-8">
+                                                    <span class="info">不在のためお届け日時を自動設定して荷物があります。ご確認ください。</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-fluid">
+                                            <div class="row option-btn">
+                                                <div class="col-xs-6">
+                                                    <span><a href="#" class="btn info ">詳細をみる</a></span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <span><a href="#" class="btn info">変更する</a></span>
+                                                </div>
+                                            </div>
+                                            <div class="row mt02">
+
+                                                <div class="col-xs-6 bbottom-black ">
+                                                </div>
+                                                <div class="col-xs-6 bbottom-gary">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="baodanall">
+                                        <div class="srcoll-div main-border srcoll-div-left">
+                                            <div class="row">
+                                                <div class="col-xs-12 mt02">
+                                                    <div class="info attation">重要</div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb1">
+                                                <div class="col-xs-4">
+                                                    <span class="date">7/18</span><span class="info">火<br />
+                                                        19:00~21:00にお届け</span>
+                                                </div>
+                                                <div class="col-xs-8">
+                                                    <span class="info">不在のためお届け日時を自動設定して荷物があります。ご確認ください。</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-fluid srcoll-div-left">
+                                            <div class="row option-btn">
+                                                <div class="col-xs-6">
+                                                    <span><a href="#" class="btn info">詳細をみる</a></span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <span><a href="#" class="btn info">変更する</a></span>
+                                                </div>
+                                            </div>
+                                            <div class="row mt02">
+                                                <div class="col-xs-6 bbottom-black ">
+                                                </div>
+                                                <div class="col-xs-6 bbottom-gary">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="baodanall">
+                                        <div class="srcoll-div main-border srcoll-div-left">
+                                            <div class="row">
+                                                <div class="col-xs-12 mt02">
+                                                    <div class="info attation">重要</div>
+                                                </div>
+                                            </div>
+                                            <div class="row mb1">
+                                                <div class="col-xs-4">
+                                                    <span class="date">7/21</span><span class="info">金<br />
+                                                        19:00~21:00にお届け</span>
+                                                </div>
+                                                <div class="col-xs-8">
+                                                    <span class="info">不在のためお届け日時を自動設定して荷物があります。ご確認ください。</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="container-fluid srcoll-div-left">
+                                            <div class="row option-btn">
+                                                <div class="col-xs-6">
+                                                    <span><a href="#" class="btn info">詳細をみる</a></span>
+                                                </div>
+                                                <div class="col-xs-6">
+                                                    <span><a href="#" class="btn info">変更する</a></span>
+                                                </div>
+                                            </div>
+                                            <div class="row mt02">
+                                                <div class="col-xs-6 bbottom-black ">
+                                                </div>
+                                                <div class="col-xs-6 bbottom-gary">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid mt2">
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="nav nav-tabs " id="tab1">
+                        <li class="tab1 active">
+                            <a href="#panel-3" data-toggle="tab">受け取る荷物</a>
+                        </li>
+                        <li class="tab1">
+                            <a href="#panel-4" data-toggle="tab">送る荷物</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="panel-3">
+                            <table class="table table1">
+                                <tbody>
+                                    <tr>
+                                        <td><span class="info">配送中</span></td>
+                                        <td>
+                                            <span class="info"><span class="number">3</span>件</span>
+
+                                        </td>
+                                        <td>
+                                            <span class="arrow">＞</span>
+                                        </td>
+                                        <td><span class="info">指定場所<br />
+                                                配達済み</span></td>
+                                        <td>
+                                            <span class="info"><span class="number">1</span>件</span>
+                                        </td>
+                                        <td>
+                                            <span class="arrow">＞</span>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                            <table class="table table2">
+                                <tbody>
+                                    <tr style="background: rgba(204,204,204,0.5)">
+                                        <td colspan="3"><span class="info">ファミリーの荷物</span></td>
+                                        <td>
+                                            <span class="info"><span class="number">1</span>件
+                                        <td>
+                                            <span class="arrow">＞</span>
+                                        </td>
+
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="tab-pane" id="panel-4">
+                            <table class="table table1">
+                                <tbody>
+                                    <tr>
+                                        <td><span class="info">配送中</span></td>
+                                        <td>
+                                            <span class="info"><span class="number">3</span>件</span>
+
+                                        </td>
+                                        <td>
+                                            <span class="arrow">＞</span>
+                                        </td>
+                                        <td><span class="info">指定場所<br />
+                                                配達済み</span></td>
+                                        <td>
+                                            <span class="info"><span class="number">1</span>件</span>
+                                        </td>
+                                        <td>
+                                            <span class="arrow">＞</span>
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                            <table class="table table2">
+                                <tbody>
+                                    <tr style="background: rgba(204,204,204,0.5)">
+                                        <td colspan="3"><span class="info">ファミリーの荷物</span></td>
+                                        <td>
+                                            <span class="info"><span class="number">1</span>件
+                                        <td>
+                                            <span class="arrow">＞</span>
+                                        </td>
+
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <hr>
+        <div class="container-fluid">
+            <div id="menu" class="menu">
+                <div id="one" class="subMenu text-center" data-src="test.html">
+                    <img class="menu_img" data-imgname="hb" />
+                    <div class="menu_name">ホーム</div>
+                </div>
+
+                <div id="two" class="subMenu text-center" data-src="redbag.html">
+                    <img class="menu_img" data-imgname="shopping" />
+                    <div class="menu_name">荷物一覧</div>
+                </div>
+
+                <div id="three" class="subMenu text-center" data-src="agent.html">
+                    <img class="menu_img" data-imgname="agent" />
+                    <div class="menu_name">送る</div>
+                </div>
+
+                <div id="four" class="subMenu text-center" data-src="client.html">
+                    <img class="menu_img" data-imgname="kefu" />
+                    <div class="menu_name"><a href="client.html">お知らせ</a></div>
+                </div>
+
+                <div id="five" class="subMenu text-center" data-src="client.html">
+                    <img class="menu_img" data-imgname="kefu" />
+                    <div class="menu_name"><a href="client.html">マイべーじ</a></div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--Mobiscroll -->
+    <script type="text/javascript" src="js/Libs/swiper-3.3.1.jquery.min.js"></script>
+    <script type="text/javascript" src="js/Addpolicy.js"></script>
+    <script>
+    </script>
+</body>
+
+</html>

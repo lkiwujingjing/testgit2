@@ -1,0 +1,123 @@
+
+
+/** */
+.div-border-bottom{
+    border-bottom:1px solid #d6d6d6;
+}
+
+.customer-title{
+    height:35px;
+    font-size:20px;
+    font-weight:bold;
+    color:rgba(0,0,0,1);
+    line-height:35px;
+    background: rgba(226,232,246,1);
+    padding-left: 8px;
+    
+}
+
+#customerInfo>tbody>tr>th {
+    background-color: #eee;
+ 
+    padding: 15px 10px;
+    text-align: left;
+    vertical-align: top;
+}
+.asw-icon-001{
+    width: 14px;
+    height: 14px;
+}
+
+.asw-schedule-table tr.asw-stay-schedule  td{
+    text-align: right;
+    background-color: #eee;
+    padding: 5px 15px;
+}
+
+.asw-schedule-table>tbody>tr>th {
+    background-color: #e2e8f7;
+    border: solid 1px #ccc;
+}
+
+
+.asw-schedule-table>tbody>tr {
+    border: solid 1px #ccc;
+    border-right: 0;
+    border-left: 0;
+}
+table * {
+    word-break: break-all;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.asw-schedule-table>thead>tr>th.asw-last-child {
+    text-align: center;
+    border: solid 1px #ccc;
+}
+
+a {
+    color: #196ed3;
+    text-decoration: underline;
+}
+.asw-attention {
+    color: #e80000;
+}
+
+.confirm-plan-amounts tbody th {
+    padding: 20px 10px;
+    text-align: left;
+    background-color: #eee;
+    width: 33.3%;
+}
+.confirm-plan-amounts tbody td {
+    width: 33.3%;
+    text-align: right;
+}
+.confirm-plan-travel-notice {
+    list-style: disc;
+    padding: 10px 10px 10px 30px;
+    border: solid 1px #ccc;
+    margin: 20px 0;
+}
+ul>li {list-style-type:square;}
+
+.account {
+    color: #e60012;
+}
+
+.last-bbottom {
+    border-bottom: solid 1px #ccc;
+}
+
+#confirm-plan .asw-border-top-title {
+    margin: 35px 0 14px 0;
+}
+.asw-border-top-title {
+    padding: 15px 10px 0;
+    background: #fff;
+    border-top: #012f64 3px solid;
+    color: #012f64;
+    font-size: 154%;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    line-height: 1;
+}
+
+.plan-div {
+    padding: 1px 5px;
+    border-top: solid 2px #dbdbdb;
+    border-right: solid 1px #dbdbdb;
+    border-bottom: solid 2px #dbdbdb;
+    border-left: solid 1px #dbdbdb;
+    float: left;
+    font-size: 93%;
+}

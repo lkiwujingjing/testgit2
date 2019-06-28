@@ -1,0 +1,170 @@
+.search-resut-title {
+    width: 652px;
+    height: 29px;
+    background: linear-gradient(180deg, rgba(224, 38, 87, 1) 0%, rgba(204, 0, 0, 1) 100%);
+
+}
+
+.search-area {
+    width: 652px;
+    height: 409px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 0.7424;
+    filter: blur(2px);
+}
+
+.search-conditon-title {
+    background: linear-gradient(180deg, rgba(224, 38, 87, 1) 0%, rgba(204, 0, 0, 1) 100%)
+}
+
+.search-conditon-div {
+    width: 652px;
+    height: 95px;
+    background: rgba(255, 255, 255, 1);
+    opacity: 0.5072;
+}
+
+.td-title {
+    font-size: 12px;
+    color: #374F5CFF;
+}
+
+.search-td-conditon-value {
+    font-size: 12px;
+    color: #000000FF;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    border-top: none;
+    padding: 1px;
+}
+
+.lines li {
+    font-size: 12px;
+    color: rgba(55, 79, 92, 1);
+    line-height: 15px;
+    padding-left: 33px;
+}
+
+.air-line {
+    font-size: 18px;
+    font-weight: 500 !important;
+    color: rgba(55, 79, 92, 1);
+    line-height: 26px;
+    padding-left: 14px;
+    margin-top: 0px;
+}
+
+.sub-title {
+    font-size: 19px;
+}
+
+.sub-sub-title {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.line-time {
+    font-size: 21px;
+}
+
+.line-time-td {
+    vertical-align: middle !important;
+    font-size: 10px;
+}
+
+.line-href {
+    text-decoration: underline
+}
+
+.search-conditon-title a
+.search-conditon-title a:focus, 
+.search-conditon-title a:hover {
+    color:rgba(61, 61, 61, 1)!important;
+}
+
+
+hr{
+    margin: 0;
+}
+.result-tabs>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+
+.result-tabs>li>a{
+    color: rgba(217,24,54,1);
+}
+
+.result-tabs>li.active>a, 
+.result-tabs>li.active>a:focus, 
+.result-tabs>li.active>a:hover {
+    background-color: rgba(225,0,0,1);
+    color: #fff;
+   margin: 0;
+   border-left: 0;
+   border-top: 0;
+   border-right: 0;
+}
+
+.result-tabs{
+    border-bottom: 5px solid rgba(225,0,0,1);
+}
+
+.result-tabs>li{
+    border: 1px solid rgba(225,0,0,1);
+}
+
+.reservation-tab>li>a {
+    position: relative;
+    display: block;
+    padding: 0;
+}
+.day-tabs>li>a{
+    border-left:1px solid rgba(217,217,217,1);
+    color: rgba(55,79,92,1);
+}
+.day-tabs .active{
+    border-bottom:1px solid rgba(225,0,0,1);
+    background:rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
+    font-weight:600;
+}
+.day-tabs .active .red{
+    color:rgba(225,0,0,1);
+}
+.search-result-btn{
+    float: right !important;
+    background:linear-gradient(180deg,rgba(224,38,87,1) 0%,rgba(204,0,0,1) 100%);
+    border-radius:2px;
+    color: rgba(255,255,255,1);
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.search-henkou-button{
+    float: right !important;
+    background:linear-gradient(180deg,rgba(144,210,255,1) 0%,rgba(134,213,255,1) 100%);
+    color: rgba(61, 61, 61, 1);
+}
+.hotel-img{
+    width: 112px;
+    height: 74px;
+}
+.radio-style{
+    height:100px; 
+    line-height:100px;
+}
+.furato-result{
+    background:rgba(255,255,255,1);
+    box-shadow:0px 2px 11px 0px rgba(204,204,204,0.5);
+    border-radius:2px;
+    border: 1px solid #ddd;
+    padding-top: 20px;
+}

@@ -1,0 +1,65 @@
+.container1{
+    width: 100%;
+}
+
+.search .search-input {
+    padding-left: 12em;
+}
+
+.i-flag-jp,.i-guide-g,.i-oneworld{
+    background-image: url("../img/icon_util-s1be6131419.png");
+    background-repeat: no-repeat;
+}
+.i-flag-jp {
+    background-position: 0 -272px;
+    width: 22px;
+    height: 15px;
+}
+.i-guide-g {
+    background-position: 0 -305px;
+    width: 11px;
+    height: 10px;
+}
+.i-oneworld {
+    background-position: 0 -495px;
+    width: 40px;
+    height: 40px;
+}
+
+.column1 {
+    margin-top: 26px;
+    margin-bottom: 23px;
+    text-align: right;
+}
+.column2 {
+    margin-top: 15px;
+    margin-bottom: 13px;
+}
+
+.l-oneworld {
+    position: absolute;
+    top: .5em;
+    right: 23em;
+}
+
+.header-nav .inline-link {
+    position: absolute;
+    right: 50px;
+    bottom: 20px;
+}
+.inline-link li:before {
+    color: #d0d0d0;
+    content: "|";
+    display: inline;
+    font-size: 80%;
+    margin-right: 8px;
+    position: relative;
+    top: -1px;
+}
+.inline-link li:first-child:before {
+    content: "";
+}
+.list-inline {
+    margin-top: 1em;
+}
+

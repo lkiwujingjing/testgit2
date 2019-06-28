@@ -1,0 +1,51 @@
+.container2{
+    height: 47px;
+}
+
+.navbar-inverse {
+    background:linear-gradient(180deg,rgba(62,70,81,1) 0%,rgba(48,55,66,1) 100%);
+}
+
+.global-nav a {
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+    box-sizing: border-box;
+    color: #fff !important;
+    font-size: 14px;
+    height: 46px;
+    line-height: 46px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 157px;
+}
+.global-nav li.is-localNavBtn a {
+    background: #cc0000;
+    position: relative;
+}
+.global-nav li a.is-current {
+    background: #b10000;
+    border-left-color: #970707;
+    height: 46px;
+    width: 125px;
+}
+.global-nav li a.is-active {
+    background: #b10000;
+    height: 46px;
+    width: 125px;
+}
+
+.iconMenuBtn {
+    display: block;
+    width: 16px;
+    height: 12px;
+    background: url("../img/menu_btn.png") no-repeat 0 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -6px 0 0 -7px;
+}
+.img-click {
+    width: 32px !important;
+}
+

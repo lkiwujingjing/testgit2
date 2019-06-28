@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>お客さま(参加者)情報の入力</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 引入 Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="css/bootstrap.vertical-tabs.css" rel="stylesheet">
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/top.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/cart.css" rel="stylesheet">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <!--top Start-->
+    <div class="container container1">
+        <div class="row column">
+            <div class="col-md-6 column1">
+                <img alt="JAPAN AIRLINES" src="img/logo.png" height="38px" width="418px" />
+            </div>
+            <div class="col-md-5 column2">
+                <div class="search">
+                    <div class="l-language">
+                        <div class="search-input">
+                            <div class="form-inline right">
+                                <a href="javascript:void(0);" class="nav-link fc-black disabled">
+                                    <span class="i i-flag-jp mb3"></span>
+                                    <span lang="en">Japan</span>日本語
+                                </a>&nbsp;
+                                <div class="input-group">
+                                    <input type="text" class="form-control w67p h22" aria-describedby="basic-addon2" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inline-link ">
+                    <ul class="list-inline">
+                        <li><span class="i i-guide-g"></span>&nbsp;&nbsp;お体の不自由なお客さまへ</li>
+                        <li><span class="i i-guide-g"></span>&nbsp;&nbsp;お問い合わせ</li>
+                        <li><span class="i i-guide-g"></span>&nbsp;&nbsp;よくあるご質問</li>
+                    </ul>
+                </div>
+                <a href="javascript:void(0);" class="l-oneworld mr30 mb3"><span class="i i-oneworld"></span></a>
+            </div>
+        </div>
+    </div>
+    <!--Top end-->
+
+    <!--Nav Start-->
+    <div class="navbar navbar-inverse ">
+        <!--Nav Start-->
+        <div class="container container2">
+            <ul class="nav navbar-nav global-nav ml135">
+                <li><a href="javascript:void(0);" onclick="">国内線</a></li>
+                <li><a href="javascript:void(0);" onclick="">国際線</a></li>
+                <li><a href="javascript:void(0);" onclick="">国内ツアー</a></li>
+                <li class="is-localNavBtn">
+                    <a href="javascript:void(0);" onclick="" class="img-click">
+                        <span class="iconMenuBtn"></span>
+                    </a>
+                </li>
+                <li><a href="javascript:void(0);" onclick="" class=" is-current">海外ツアー</a></li>
+                <li><a href="javascript:void(0);" onclick="">マイレージ</a></li>
+                <li><a href="javascript:void(0);" onclick="">JALカード</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--Nav End-->
+
+    <!-- Main Start-->
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-3">
+                <div class="thumbnail left-logo">
+                    <img alt="300x200" src="img/yoroku.png" class="img-responsive" />
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row mt20 stepline-font search-conditon-title">
+                    <div class="col-md-3">
+                        <img alt="300x200" src="img/darkplan.png" class="img-responsive" />
+                        <div aria-hidden="true" class="stepline">&nbsp;</div>
+                        <br />
+                        <div class="mt13">カート</div>
+                    </div>
+                    <div class="col-md-3">
+                        <img alt="300x200" src="img/redplan.png" class="img-responsive" />
+                        <div aria-hidden="true" class="stepline">&nbsp;</div>
+                        <br />
+                        <div class="mt13">お客様情報入力</div>
+                    </div>
+                    <div class="col-md-3">
+                        <img alt="300x200" src="img/darkplan.png" class="img-responsive" />
+                        <div aria-hidden="true" class="stepline">&nbsp;</div>
+                        <br />
+                        <div class="mt13">予約情報最終確認</div>
+                    </div>
+                    <div class="col-md-3">
+                        <img alt="300x200" src="img/darkplan.png" class="img-responsive" />
+                        <br />
+                        <div class="mt13">予約完了</div>
+                    </div>
+                </div>
+
+                <div class="mt20">
+                    <div class="row plan-title">
+                        <div class="inline" style="background:rgba(207,34,9,1);">&nbsp;</div>
+                        <div class="inline pl10">カート</div>
+                    </div>
+                    <div class="row pl14">
+                        <p class="fs15" style="padding-top: 15px;padding-left: 10px;color:rgba(55,79,92,1);">
+                            現在選択している旅程は以下の通りです。<br />
+                            旅程を変更する場合は「戻る」ボタンを押し再度旅程を選択してください。
+                        </p>
+                    </div>
+                </div>
+                <div class="mt30">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <table class="table" style="background-color: #e2e8f8;">
+                                <tr>
+                                    <td rowspan="3" class="bbottom fs24">
+                                        <strong> 航空券＋宿泊「ＡＮＡ旅作」 海外ダイナミッ<br />クパッケージ ニューヨーク</strong></td>
+                                    <td class="bbottom fs13">旅行代金合計</td>
+                                    <td class="fs19 account">
+                                        256,700円
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="bbottom btop fs13">お一人様あたり（概算）</td>
+                                    <td class="bbottom btop fs19 ">
+                                        <strong> 256,700円</strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="bbottom btop fs13" colspan="2">（燃油サーチャージ込み／空港諸税別）</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="row fs15">
+                    <div class="col-md-12">
+                        <h2 class="asw-border-top-title">選択プラン</h2>
+                        <table class="table confirm-plan-selected-plan" id="customerInfo">
+                            <tr>
+                                <th rowspan="2">フライト</th>
+                                <td class="bbottom">06月12日（水）</td>
+                                <td class="bbottom">NH0010</td>
+                                <td class="bbottom">エコノミークラス（IT运赁）：L </td>
+                                <td class="bbottom">东京（羽田） - >大阪（伊丹·关西）</td>
+                            </tr>
+                            <tr>
+                                <td class="btop">06月14日（金）</td>
+                                <td class="btop">NH6453</td>
+                                <td class="btop">エコノミークラス（IT运租）：L </td>
+                                <td class="btop">大阪（伊丹·关西） - >东京（羽田）</td>
+                            </tr>
+                            <tr>
+                                <th>ホテル</th>
+                                <td colspan="5">
+                                    <p>大阪/ 2泊</p>
+                                    <p>大阪府</p>
+                                    <p><div class="plan-div">プラン名</div>&nbsp;&nbsp;
+                                        部屋し朝食なし</p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th class="last-bbottom">オプション</th>
+                                <td class="last-bbottom" colspan="5">
+                                    <p>送迎なし</p>
+                                    <p>空港からホテルへの移動はご自身で準備願います</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row fs15">
+                    <div class="col-md-12">
+                        <h2 class="asw-border-top-title">日程表</h2>
+                        <table class="table table-bordered  asw-schedule-table">
+                            <thead>
+                                <tr>
+                                    <th>行程</th>
+                                    <th class="asw-last-child">スケジュール</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th rowspan="2">6/12<br>（水）</th>
+                                    <td>
+                                        <table class="table-condensed">
+                                            <tbody>
+                                                <tr>
+                                                    <td>16:35</td>
+                                                    <td>東京（成田）発 <img src="img/ana_logo_xsmall-25f18d1.png"> NH0010便 <img
+                                                            src="img/icon_asw_001-25f18d1.png" class="asw-icon-001">
+                                                        (約12時間50分)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>18:25</td>
+                                                    <td>大阪（伊丹·关西）着</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th></th>
+                                                    <td>着后、ホテルへ（お客様ご自身にて移动</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="asw-stay-schedule">
+                                    <td>
+                                        <div>大阪（伊丹·关西）泊</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">6/13<br>(日)</th>
+                                    <td>
+                                        <table class="table-condensed">
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="2">自由行動</td>
+                                                   
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr class="asw-stay-schedule">
+                                    <td>
+                                        <div>大阪（伊丹·关西）泊</div>
+                                    </td>
+                                </tr>
+                                </tr>
+                                <tr>
+                                    <th rowspan="2">7/15<br>(月)</th>
+                                    <td>
+                                        <table class="table-condensed">
+                                            <tbody>
+                                                <tr>
+                                                    <td>16:35</td>
+                                                    <td>大阪（伊丹·关西）発 <img src="img/ana_logo_xsmall-25f18d1.png"> NH6453便
+                                                        <img src="img/icon_asw_001-25f18d1.png" class="asw-icon-001">
+                                                        （约2时间50分）</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>18:25</td>
+                                                    <td>东京（成田）着</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <th></th>
+                                                    <td>着后、ホテルへ（お客様ご自身にて移动</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row mt20 mb30">
+                    <div class="col-md-12 tr">
+                        <button class="btn btn-lg dark-button" type="button" id="cart-button">戻る</button>&nbsp;&nbsp;
+                        <button class="btn btn-lg red-button" type="button" id="pay-button">会員の方</button>
+                    </div>
+
+                </div>
+                <div class="row mt20 mb30">
+                    <div class="col-md-12 tr">
+                        <button class="btn btn-lg red-button" type="button" id="pay-button">一般の方</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/customer.js"></script>
+</body>
+
+</html>
